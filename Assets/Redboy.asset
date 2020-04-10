@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a620b368dd2cb44b537df6b57e4425, type: 3}
+  m_Name: Redboy
+  m_EditorClassIdentifier: 
+  characterName: Marble
+  mugshot: {fileID: 0}
+  stand_up:
+  - {fileID: 21300000, guid: f37232364c5d084419fe2a651655dbfa, type: 3}
+  - {fileID: 21300000, guid: 8e7a9d212e5f8d24aa5e05482e8c3437, type: 3}
+  - {fileID: 21300000, guid: f37232364c5d084419fe2a651655dbfa, type: 3}
+  - {fileID: 21300000, guid: 8e7a9d212e5f8d24aa5e05482e8c3437, type: 3}
+  stand_down:
+  - {fileID: 21300000, guid: 4a8c4727e045a6e40b4736ee1a31d163, type: 3}
+  - {fileID: 21300000, guid: 7f991749a9e0bad46bb6c1e5d74a7831, type: 3}
+  - {fileID: 21300000, guid: 4a8c4727e045a6e40b4736ee1a31d163, type: 3}
+  - {fileID: 21300000, guid: 7f991749a9e0bad46bb6c1e5d74a7831, type: 3}
+  stand_left:
+  - {fileID: 21300000, guid: ff25802df9fc1e74792389d68281bb6b, type: 3}
+  - {fileID: 21300000, guid: 3629ea1ecad30b04eb8303b0004c3fc2, type: 3}
+  - {fileID: 21300000, guid: ff25802df9fc1e74792389d68281bb6b, type: 3}
+  - {fileID: 21300000, guid: 3629ea1ecad30b04eb8303b0004c3fc2, type: 3}
+  stand_right:
+  - {fileID: 21300000, guid: 043149b7efe269341981417de761ec20, type: 3}
+  - {fileID: 21300000, guid: ca5cd02db5b256f49bcd0764e1bee523, type: 3}
+  - {fileID: 21300000, guid: 043149b7efe269341981417de761ec20, type: 3}
+  - {fileID: 21300000, guid: ca5cd02db5b256f49bcd0764e1bee523, type: 3}
+  go_up:
+  - {fileID: 21300000, guid: f37232364c5d084419fe2a651655dbfa, type: 3}
+  - {fileID: 21300000, guid: adfecb3a37499ca47a72cfdf2e5952a2, type: 3}
+  - {fileID: 21300000, guid: f37232364c5d084419fe2a651655dbfa, type: 3}
+  - {fileID: 21300000, guid: 8294c537ab4c4f04db075ed0f305d6dd, type: 3}
+  go_down:
+  - {fileID: 21300000, guid: 4a8c4727e045a6e40b4736ee1a31d163, type: 3}
+  - {fileID: 21300000, guid: be3872207119e3847925265d9d34a522, type: 3}
+  - {fileID: 21300000, guid: 4a8c4727e045a6e40b4736ee1a31d163, type: 3}
+  - {fileID: 21300000, guid: 97d60b5b07f67f94e85a9a7ccac7f1fb, type: 3}
+  go_left:
+  - {fileID: 21300000, guid: ff25802df9fc1e74792389d68281bb6b, type: 3}
+  - {fileID: 21300000, guid: 22b94177b67b11e4badff50a265be5aa, type: 3}
+  - {fileID: 21300000, guid: ff25802df9fc1e74792389d68281bb6b, type: 3}
+  - {fileID: 21300000, guid: 36be3d950a3ea0d4da1681085ad528ec, type: 3}
+  go_right:
+  - {fileID: 21300000, guid: 043149b7efe269341981417de761ec20, type: 3}
+  - {fileID: 21300000, guid: 20c6500cc6e186c40bfbce89343c8457, type: 3}
+  - {fileID: 21300000, guid: 043149b7efe269341981417de761ec20, type: 3}
+  - {fileID: 21300000, guid: 347efcab9ff1b1149bd3016c5099b78c, type: 3}
+  run_up: []
+  run_down: []
+  run_left: []
+  run_right: []
+  speed: 2
+  baseExp: 200
+  currentExp: 0
+  nextLvlExp: 0
+  hp: 200
+  maxhp: 200
+  dame: 20
+  attackRange: 2
+  visionRange: 4
+  attackCountDown: 1
+  gethit_up:
+  - {fileID: 21300000, guid: c19ea2770170c9e4c8dd533c2eb169d0, type: 3}
+  gethit_down:
+  - {fileID: 21300000, guid: 9ef97def2c706984194174a7ea53dea3, type: 3}
+  gethit_left:
+  - {fileID: 21300000, guid: 6c395d7e1b815bc41a2d5ae409c7d1d8, type: 3}
+  gethit_right:
+  - {fileID: 21300000, guid: 99acd4698ad23c0438dfb2693c1baab6, type: 3}
+  attack_up:
+  - {fileID: 21300000, guid: 16891fdf8c7959c419a19af9f647dfdf, type: 3}
+  attack_down:
+  - {fileID: 21300000, guid: 896200cd0ae5a49438e287c4dce2ea29, type: 3}
+  attack_left:
+  - {fileID: 21300000, guid: 70f379338d9f1944581380fd713bedff, type: 3}
+  attack_right:
+  - {fileID: 21300000, guid: 3cc1cb6de44c8ee42ada89a5d6cedb55, type: 3}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cab4cd3943f6143b34f5bc13ed95da, type: 3}
+  m_Name: IS_Carrot
+  m_EditorClassIdentifier: 
+  name: Carrot Seed
+  detail: "\u0110\u1ED9 hi\u1EBFm: 0\r\nT\u1ED1c \u0111\u1ED9 m\u1ECDc: nhanh\r\nT\u1EA1o
+    coin: \xEDt\r\n\r\n\u0110\u1EBFn t\u1EEB v\xF9ng c\u1EE7a mafia rabbit"
+  priceGold: 20
+  priceDiamond: 0
+  gameObject: {fileID: 6839800727692429564, guid: cc539c5439c763346b949d09e7ac27cd,
+    type: 3}
+  sprite: {fileID: 5913171150182585383, guid: 2c71d8201acadae439ed647c5ffb139d, type: 3}

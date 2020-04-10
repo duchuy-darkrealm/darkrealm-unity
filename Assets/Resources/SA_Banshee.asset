@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a620b368dd2cb44b537df6b57e4425, type: 3}
+  m_Name: SA_Banshee
+  m_EditorClassIdentifier: 
+  characterName: 
+  mugshot: {fileID: 0}
+  stand_up: []
+  stand_down: []
+  stand_left:
+  - {fileID: 5813041405152599277, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: 8077704838618562257, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  stand_right:
+  - {fileID: -8462620926744098213, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: -8192317116273744968, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  go_up: []
+  go_down: []
+  go_left:
+  - {fileID: 5813041405152599277, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: 8077704838618562257, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  go_right:
+  - {fileID: -8462620926744098213, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: -8192317116273744968, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  run_up: []
+  run_down: []
+  run_left:
+  - {fileID: 5813041405152599277, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: 8077704838618562257, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  run_right:
+  - {fileID: -8462620926744098213, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: -8192317116273744968, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  speed: 0.6
+  baseExp: 200
+  currentExp: 0
+  nextLvlExp: 0
+  hp: 200
+  maxhp: 200
+  dame: 2
+  attackRange: 2
+  visionRange: 4
+  attackCountDown: 1
+  attackObjectName: AttackDirect
+  gethit_up: []
+  gethit_down: []
+  gethit_left: []
+  gethit_right: []
+  attack_up: []
+  attack_down: []
+  attack_left:
+  - {fileID: 5813041405152599277, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: 8077704838618562257, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  attack_right:
+  - {fileID: -8462620926744098213, guid: eb6a261e75665e24199069cc388b59f4, type: 3}
+  - {fileID: -8192317116273744968, guid: eb6a261e75665e24199069cc388b59f4, type: 3}

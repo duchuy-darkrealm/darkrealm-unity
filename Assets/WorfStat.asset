@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a620b368dd2cb44b537df6b57e4425, type: 3}
+  m_Name: WorfStat
+  m_EditorClassIdentifier: 
+  characterName: Worf
+  mugshot: {fileID: 0}
+  stand_up: []
+  stand_down: []
+  stand_left:
+  - {fileID: 21300000, guid: c918532a856059a438298f16d4870d80, type: 3}
+  stand_right:
+  - {fileID: 21300000, guid: f41339930f0a5ae4c8417369c503cc44, type: 3}
+  go_up: []
+  go_down: []
+  go_left:
+  - {fileID: 21300000, guid: c918532a856059a438298f16d4870d80, type: 3}
+  - {fileID: 21300000, guid: 90af853f0338c1441a2c736a5f67b7b0, type: 3}
+  - {fileID: 21300000, guid: c918532a856059a438298f16d4870d80, type: 3}
+  - {fileID: 21300000, guid: 1aa3937f97067c843a7bf5404d6a7804, type: 3}
+  go_right:
+  - {fileID: 21300000, guid: f41339930f0a5ae4c8417369c503cc44, type: 3}
+  - {fileID: 21300000, guid: dabb862e329388c468ca202ef09955f8, type: 3}
+  - {fileID: 21300000, guid: f41339930f0a5ae4c8417369c503cc44, type: 3}
+  - {fileID: 21300000, guid: a0e82647ca9e0ae42ae5475d012b5397, type: 3}
+  run_up: []
+  run_down: []
+  run_left:
+  - {fileID: 21300000, guid: bf7c614210a8e0f4fbf7d30f6b83e24a, type: 3}
+  - {fileID: 21300000, guid: 9894c663ab6ba7448902a1f385c5045e, type: 3}
+  run_right:
+  - {fileID: 21300000, guid: 4118a827b11c0494a92c1f051a1a4e59, type: 3}
+  - {fileID: 21300000, guid: 2424d9299c6daae4c80825f7f19e7601, type: 3}
+  speed: 0.6
+  baseExp: 200
+  currentExp: 0
+  nextLvlExp: 0
+  hp: 200
+  maxhp: 200
+  dame: 2
+  attackRange: 0.7
+  visionRange: 4
+  attackCountDown: 0.66
+  attackObjectName: AttackDirect
+  gethit_up: []
+  gethit_down: []
+  gethit_left: []
+  gethit_right: []
+  attack_up: []
+  attack_down: []
+  attack_left:
+  - {fileID: 21300000, guid: 2f54684a23e36c9418b860e0b8bf233c, type: 3}
+  - {fileID: 21300000, guid: 6a57ae5267c64fd498a714459dec1561, type: 3}
+  attack_right:
+  - {fileID: 21300000, guid: 7b63267e297fd214399b089bb697dbb9, type: 3}
+  - {fileID: 21300000, guid: 23f8f600676d84d469ff193d3b6a3644, type: 3}
